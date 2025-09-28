@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#check{
+    display: none;
+}
+.box{
+    /* background-color: red; */
+    max-width: 400px;
+    width: 100%;
+}
+.box .search-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    max-width: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0,0, 0.25);
+    border-radius: 25px;
+    position: relative;
+    transition: max-width 0.3s ease;
+    margin: auto; /*important. study its working here */
+}
+.box .search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.box .search-box .icon{
+    position: absolute;
+    background-color:pink;
+    border-radius: 24px;
+    width: 50px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#check:checked ~.search-box{
+    max-width: 380px;
+}
+#check:checked  ~.search-box .icon{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
