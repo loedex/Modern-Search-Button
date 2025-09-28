@@ -5,7 +5,7 @@ A sleek and interactive search button component built using **HTML** and **CSS**
 
 ## 🚀 Live Demo
 
-[**View it on GitHub Pages**](https://your-username.github.io/your-repo-name/)  
+[**View it on GitHub Pages**](https://loedex.github.io/Modern-Search-Button/)  
 
 ## 🧾 Features
 
@@ -29,5 +29,5 @@ Email: 📧 loedex@yahoo.com
 
 WhatsApp:  +92 334 5275466
 
-TikTok: 
+TikTok: https://www.tiktok.com/@loedex0?_t=ZS-9065NDNjTve&_r=1
 
